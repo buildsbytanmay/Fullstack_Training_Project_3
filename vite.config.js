@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Fullstack_Training_Project_3/',
   plugins: [
     tailwindcss(),
     react(),
